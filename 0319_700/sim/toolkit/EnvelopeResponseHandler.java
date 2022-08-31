@@ -31,6 +31,7 @@ public final class EnvelopeResponseHandler extends EditHandler {
      * Constructor
      */
     private EnvelopeResponseHandler() {
+        super();
     }
 
 
@@ -46,6 +47,7 @@ public final class EnvelopeResponseHandler extends EditHandler {
      *      <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy.</ul>
      */
     public static EnvelopeResponseHandler getTheHandler() throws ToolkitException {
+        return null;
     }
 
     /**

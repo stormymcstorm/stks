@@ -53,6 +53,7 @@ public final class EnvelopeHandler extends ViewHandler {
 	 * constructor
      */
     private EnvelopeHandler() {
+        super();
     }
 
 
@@ -68,6 +69,7 @@ public final class EnvelopeHandler extends ViewHandler {
      *      <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy.</ul>
      */
     public static EnvelopeHandler getTheHandler() throws ToolkitException{
+        return null;
     }
 
     /**
@@ -76,6 +78,7 @@ public final class EnvelopeHandler extends ViewHandler {
      * @return Envelope BER-TLV tag
      */
     public byte getEnvelopeTag()  {
+        return 0;
     }
 
     /**
@@ -90,6 +93,7 @@ public final class EnvelopeHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable TPDU TLV element or if the TPUDL field does not exist</ul>
      */
     public short getTPUDLOffset() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -104,7 +108,8 @@ public final class EnvelopeHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable SMS TPDU TLV element or missing Secured Data </ul>
      */
 
-     public short getSecuredDataOffset() throws ToolkitException {
+    public short getSecuredDataOffset() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -119,7 +124,8 @@ public final class EnvelopeHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable SMS TPDU TLV element or missing Secured Data </ul>
      */
 
-     public short getSecuredDataLength() throws ToolkitException {
+    public short getSecuredDataLength() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -132,5 +138,6 @@ public final class EnvelopeHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable TLV element</ul>
      */
     public byte getItemIdentifier() throws ToolkitException {
+        return 0;
     }
 }

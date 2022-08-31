@@ -67,5 +67,6 @@ public class SIMSystem extends Object {
      * @return a reference to a class which implements the SIMView interface
      */
     public static SIMView getTheSIMView() {
+        return null;
     }
 }

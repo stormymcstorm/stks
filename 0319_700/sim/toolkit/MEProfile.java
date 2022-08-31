@@ -129,6 +129,7 @@ public final class MEProfile {
      *      <li>ME_PROFILE_NOT_AVAILABLE if Terminal Profile data are not available</ul>
      */
     public static boolean check(byte index) throws ToolkitException {
+        return false;
     }
 
     /**
@@ -152,5 +153,6 @@ public final class MEProfile {
                                 short length) throws NullPointerException,
                                                      ArrayIndexOutOfBoundsException,
                                                      ToolkitException {
+        return false;
     }
 }

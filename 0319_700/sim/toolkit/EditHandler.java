@@ -19,6 +19,7 @@ package sim.toolkit;
  * @see ToolkitException
  */
 public class EditHandler extends ViewHandler {
+    EditHandler() {}
 
     // ------------------------------- Constructors ---------------------------
     /**
@@ -34,6 +35,7 @@ public class EditHandler extends ViewHandler {
     public EditHandler(byte[] buffer, short offset, short length) 
     												throws 	NullPointerException,
                                                     		ArrayIndexOutOfBoundsException  {
+        super(buffer, offset, length);
     }
 
 

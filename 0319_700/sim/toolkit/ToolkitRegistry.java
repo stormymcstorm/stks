@@ -91,6 +91,7 @@ public final class ToolkitRegistry {
      * 		<li>REGISTRY_ERROR in case of register error</ul>
      */
     public static ToolkitRegistry getEntry() throws ToolkitException {
+        return null;
 	}
 
 
@@ -151,6 +152,7 @@ public final class ToolkitRegistry {
      * @return true if the event is set in the Toolkit Registry, false otherwise
      */
     public boolean isEventSet(byte event) {
+        return false;
     }
 
     /**
@@ -215,6 +217,7 @@ public final class ToolkitRegistry {
                                 short iconIdentifier) throws NullPointerException,
                                                      		 ArrayIndexOutOfBoundsException,
                                                      		 ToolkitException {
+        return 0;
     }
 
     /**
@@ -269,6 +272,7 @@ public final class ToolkitRegistry {
      *		of timers have been allocated to this applet</ul>
      */
     public byte allocateTimer() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -325,6 +329,7 @@ public final class ToolkitRegistry {
 	 */
 
 	public short getPollInterval() {
+        return 0;
 	}
 
 }

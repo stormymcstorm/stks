@@ -101,6 +101,7 @@ public class SIMViewException extends CardRuntimeException {
      * @param reason the reason for the exception
      */
     public SIMViewException(short reason) {
+        super(reason);
     }
 
 

@@ -20,6 +20,8 @@ package sim.toolkit;
  */
 public class ViewHandler {
 
+    ViewHandler() {}
+
     // ------------------------------- Constructor ---------------------------
     /**
      * Builds a new ViewHandler object.
@@ -46,6 +48,7 @@ public class ViewHandler {
      *          <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy</ul>
      */
     public short getLength() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -68,6 +71,7 @@ public class ViewHandler {
                         short dstLength) throws NullPointerException,
                                                 ArrayIndexOutOfBoundsException,
                                                 ToolkitException {
+        return 0;
     }
 
 
@@ -89,6 +93,7 @@ public class ViewHandler {
      *      <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy</ul>
      */
     public byte findTLV(byte tag, byte occurrence) throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -102,6 +107,7 @@ public class ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable TLV element</ul>
      */
     public short getValueLength() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -117,6 +123,7 @@ public class ViewHandler {
      *      <li><code>OUT_OF_TLV_BOUNDARIES</code> if <code>valueOffset</code> is out of the current TLV </ul>
      */
     public byte getValueByte(short valueOffset) throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -143,6 +150,7 @@ public class ViewHandler {
                             short dstLength) throws NullPointerException,
                                                 	ArrayIndexOutOfBoundsException,
                                                 	ToolkitException {
+        return 0;
     }
 
     /**
@@ -171,6 +179,7 @@ public class ViewHandler {
                              short compareLength) throws 	NullPointerException,
                                                 			ArrayIndexOutOfBoundsException,
                                                 			ToolkitException {
+        return 0;
     }
 
     /**
@@ -198,6 +207,7 @@ public class ViewHandler {
                                   short dstOffset) throws 	NullPointerException,
                                                 			ArrayIndexOutOfBoundsException,
                                                 			ToolkitException {
+        return 0;
     }
 
     /**
@@ -232,6 +242,7 @@ public class ViewHandler {
                                   short dstLength) throws 	NullPointerException,
                                                 			ArrayIndexOutOfBoundsException,
                                                 			ToolkitException {
+        return 0;
     }
 
     /**
@@ -262,6 +273,7 @@ public class ViewHandler {
                                     short compareOffset) throws	NullPointerException,
                                                 				ArrayIndexOutOfBoundsException,
                                                 				ToolkitException {
+        return 0;
     }
 
     /**
@@ -299,5 +311,6 @@ public class ViewHandler {
                                     short compareLength) throws NullPointerException,
                                                 				ArrayIndexOutOfBoundsException,
                                                 				ToolkitException {
+        return 0;
     }
 }

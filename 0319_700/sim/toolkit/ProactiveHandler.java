@@ -71,6 +71,7 @@ public final class ProactiveHandler extends EditHandler {
      *      <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy.</ul>
      */
     public static ProactiveHandler getTheHandler() throws ToolkitException {
+        return null;
     }
 
     /**
@@ -94,6 +95,7 @@ public final class ProactiveHandler extends EditHandler {
      * @return general result of the command (first byte of Result TLV in Terminal Response)
      */
     public byte send() {
+        return 0;
     }
 
     /**

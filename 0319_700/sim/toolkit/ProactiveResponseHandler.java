@@ -68,6 +68,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>HANDLER_NOT_AVAILABLE</code> if the handler is busy.</ul>
      */
     public static ProactiveResponseHandler getTheHandler() throws ToolkitException {
+        return null;
     }
 
     /**
@@ -79,6 +80,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable Result TLV element</ul>
      */
     public byte getGeneralResult() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -91,6 +93,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable Result TLV element</ul>
      */
     public short getAdditionalInformationLength() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -113,6 +116,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
     										short dstLength) throws NullPointerException,
                                                      				ArrayIndexOutOfBoundsException,
                                                      				ToolkitException {
+        return 0;
     }
 
     /**
@@ -125,6 +129,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable Item Identifier TLV element</ul>
      */
     public byte getItemIdentifier() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -138,6 +143,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable Text String TLV element</ul>
      */
     public short getTextStringLength() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -150,6 +156,7 @@ public final class ProactiveResponseHandler extends ViewHandler {
      *      <li><code>UNAVAILABLE_ELEMENT</code> in case of unavailable Text String TLV element</ul>
      */
     public byte getTextStringCodingScheme() throws ToolkitException {
+        return 0;
     }
 
     /**
@@ -170,5 +177,6 @@ public final class ProactiveResponseHandler extends ViewHandler {
     												throws 	NullPointerException,
                                                      		ArrayIndexOutOfBoundsException,
                                                      		ToolkitException {
+        return 0;
     }
 }

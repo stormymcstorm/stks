@@ -96,6 +96,7 @@ public class ToolkitException extends CardRuntimeException {
      * @param reason the reason for the exception
      */
     public ToolkitException(short reason) {
+        super(reason);
     }
 
 
